@@ -1,5 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--image-href);
@@ -8,6 +9,11 @@
   background-position: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .header__theme-menu-button {
@@ -354,6 +360,10 @@ footer {
     align-self: center;
   }
 
+  .title-decorate {
+    text-shadow: 4px 4px 0px #FF8DCB;
+  }
+
   .header__decorated-element {
     visibility: var(--rec-visible);
     position: absolute;
@@ -545,6 +555,10 @@ footer {
     position: relative;
     left: 0px;
     font-size: clamp(0rem, 0rem + 30.9333vw, 7.25rem);
+  }
+
+  .title-decorate {
+    text-shadow: 4px 4px 0px #FF8DCB;
   }
 
   .header__p {
