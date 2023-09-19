@@ -243,9 +243,18 @@ footer {
 
 
 /*---------------------------LIGHT--------------------*/
-.title-decorate {
+.header__title-decorate {
   color: var(--header-title-color);
   text-shadow: var(--header-title-shadow);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: var(--text-weight);
+  line-height: 82.5%; /* 129.525px */
+}
+
+.footer__title-decorate {
+  color: var(--header-title-color);
+  text-shadow: var(--footer-title-shadow);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: var(--text-weight);
@@ -360,8 +369,12 @@ footer {
     align-self: center;
   }
 
-  .title-decorate {
+  .header__title-decorate {
     text-shadow: 4px 4px 0px #FF8DCB;
+  }
+
+  .footer__title-decorate {
+    text-shadow: 2px 2px 0px #FF8DCB;
   }
 
   .header__decorated-element {
@@ -557,8 +570,12 @@ footer {
     font-size: clamp(0rem, 0rem + 30.9333vw, 7.25rem);
   }
 
-  .title-decorate {
+  .header__title-decorate {
     text-shadow: 4px 4px 0px #FF8DCB;
+  }
+
+  .footer__title-decorate {
+    text-shadow: 2px 2px 0px #FF8DCB;
   }
 
   .header__p {

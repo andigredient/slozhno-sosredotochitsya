@@ -15,6 +15,7 @@
   --title-text-color: #000028;
   --header-title-color: #db00ff;
   --header-title-shadow: 4px 4px 0px #ff0070;
+  --footer-title-shadow: 2px 2px 0px #ff0070;
   --main-font: "IBM Plex Mono", monospace;
   --text-size: 18px;
   --line-height-size: 23.4px;
@@ -43,6 +44,7 @@
     --title-text-color: #000028;
     --header-title-color: #db00ff;
     --header-title-shadow: 4px 4px 0px #ff0070;
+    --footer-title-shadow: 2px 2px 0px #ff0070;
     --main-font: "IBM Plex Mono", monospace;
     --text-size: 18px;
     --line-height-size: 23.4px;
