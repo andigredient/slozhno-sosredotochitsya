@@ -118,12 +118,12 @@
 .header__decorated-element-ellipse {
   border-radius: 100%;
   background-color: var(--accent-color);
-  width: 11px;
-  height: 11px;
+  width: 13px;
+  height: 13px;
   filter: drop-shadow(0px 0px 4px var(--accent-color));
   border: var(--border-style);
   display: inline-block;
-  margin-inline: 7px;
+  margin-inline: 6px;
 }
 
 .section {
@@ -283,7 +283,7 @@ footer {
   font-family: var(--main-font);
   font-size: var(--text-size);
   font-style: normal;
-  font-weight: var(--text-weight);
+  font-weight: 400;
   line-height: var(--line-height-size);
   background-color: var(--title-background-color);
   margin-block-start: 20px;
