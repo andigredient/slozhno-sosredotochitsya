@@ -24,6 +24,8 @@
   --image-href: url("../images/cover-image-dark.png");
   --rec-visible: visible;
   --button-active-style: 1px solid #ff0070;
+  --a-shadow-style: 2px 2px 0px #ff0070;
+
 }
 
 :root.theme-dark {
@@ -50,6 +52,8 @@
     --image-href: url("../images/cover-image-dark.png");
     --rec-visible: visible;
     --button-active-style: 1px solid #ff0070;
+    --a-shadow-style: 2px 2px 0px #ff0070;
+
   }
 }
 
