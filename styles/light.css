@@ -18,11 +18,11 @@
   --header-title-shadow-mobile: 4px 4px 0px #ff8dc8;
   --footer-title-shadow: 2px 2px 0px #ff0070;
   --footer-title-shadow-mobile: 2px 2px 0px #ff8dcb;
-
   --main-font: "IBM Plex Mono", monospace;
   --text-size: 18px;
   --line-height-size: 23.4px;
-  --border-style: 1px solid rgba(50, 49, 45, 0.4);
+  --border-style-hover: 1px solid rgba(50, 49, 45, 0.4);
+  --border-style-default-and-focus: 1px solid #353430;
   --side-angles: 1px solid #353430;
   --text-weight: 700;
   --image-href: url("../images/cover-image-light.png");
@@ -44,7 +44,8 @@
   --main-font: "IBM Plex Mono", monospace;
   --text-size: 18px;
   --line-height-size: 23.4px;
-  --border-style: 1px solid rgba(50, 49, 45, 0.4);
+  --border-style-hover: 1px solid rgba(50, 49, 45, 0.4);
+  --border-style-default-and-focus: 1px solid #353430;
   --side-angles: 1px solid #353430;
   --text-weight: 700;
   --image-href: url("../images/cover-image-light.png");

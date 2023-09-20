@@ -21,7 +21,8 @@
   --main-font: "IBM Plex Mono", monospace;
   --text-size: 18px;
   --line-height-size: 23.4px;
-  --border-style: 1px solid #ff0070;
+  --border-style-hover: 1px solid rgba(255, 0, 112, 0.40);
+  --border-style-default-and-focus: 1px solid #FF0070;
   --side-angles: 1px solid #ff0070;
   --text-weight: 700;
   --image-href: url("../images/cover-image-dark.png");
@@ -52,7 +53,8 @@
     --main-font: "IBM Plex Mono", monospace;
     --text-size: 18px;
     --line-height-size: 23.4px;
-    --border-style: 1px solid #ff0070;
+    --border-style-hover: 1px solid rgba(255, 0, 112, 0.40);
+    --border-style-default-and-focus: 1px solid #FF0070;
     --side-angles: 1px solid #ff0070;
     --text-weight: 700;
     --image-href: url("../images/cover-image-dark.png");

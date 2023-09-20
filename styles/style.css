@@ -26,11 +26,15 @@
 }
 
 .header__theme-menu-button:hover {
-  border: var(--border-style);
+  border: var(--border-style-hover);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: var(--border-style);
+  border-block-end: var(--border-style-default-and-focus);
 }
 
 .header__theme-menu-button_active {
@@ -156,11 +160,15 @@ main {
 }
 
 .section__decorated-a:hover {
-  border-block-end: var(--border-style);
+  border-block-end: var(--border-style-hover);
+}
+
+.section__decorated-a:focus {
+  outline: none;
 }
 
 .section__decorated-a:focus-visible {
-  border: var(--border-style);
+  border: var(--border-style-default-and-focus);
 }
 
 .section__argument {
