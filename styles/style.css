@@ -9,10 +9,6 @@
   background-position: center;
 }
 
-body {
-  margin: 0 auto;
-  padding: 0;
-}
 
 .header__theme-menu-button {
   color: var(--accent-color);
@@ -309,7 +305,7 @@ footer {
   font-weight: 400;
   line-height: var(--line-height-size);
   background-color: var(--title-background-color);
-  margin-block-start: 20px;
+  margin-block-start: 18px;
 }
 
 /*---------------------------768x1024--------------------*/
@@ -642,7 +638,7 @@ footer {
   }
 
   .subtitle-paragraph {
-    margin-block-end: 20px;
+    margin-block-end: 18px;
   }
 
   .section__introduction {
