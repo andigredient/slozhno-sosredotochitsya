@@ -376,7 +376,7 @@ footer {
   }
 
   .footer__title-decorate {
-    text-shadow: var(--footer-title-shadow);
+    text-shadow: var(--footer-title-shadow-mobile);
   }
 
   .header__decorated-element {
@@ -582,7 +582,7 @@ footer {
   }
 
   .footer__title-decorate {
-    text-shadow: var(--footer-title-shadow);
+    text-shadow: var(--footer-title-shadow-mobile);
   }
 
   .header__p {
